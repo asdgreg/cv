@@ -1,93 +1,180 @@
-
 <!DOCTYPE html>
-<html lang="en" moznomarginboxes>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-        <meta name="google" content="notranslate" />
-        <!-- Metadata (autofilled by "Save to HTML") -->
-        <meta name="author" content="Joe Smith" />
-        <meta name="subject" content="A really good software engineer you should hire" />
-        <meta name="keywords" content="coding, developing, hacking" />
-        <meta name="date" content="2009-04-01" />
-        <meta name="generator" content="html-resume-template" />
-        <!-- Google Fonts, Normalize, and Font Awesome -->
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cardo|Montserrat:300,400,500&amp;subset=latin-ext" crossorigin="anonymous" />
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
-        <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
-        <!-- Custom Styles -->
-        <link rel="stylesheet" type="text/css" href="./paper.css" />
-        <link rel="stylesheet" type="text/css" href="./styles.css" />
-        <link rel="stylesheet" type="text/css" href="./typography.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="./screen.css" />
-        <link rel="stylesheet" type="text/css" media="print" href="./print.css" />
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-        <title>HTML Resume Template</title>
-    </head>
-    <body class="letter">    
+<html>
+<head>
+    <title>Greg Sauceda @asdgreg</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Greg as a code &amp; @asdgreg">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: '-I';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Greg</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Cloud</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
 
-<div id="inner-nav"></div>
-    <div id="container">
-        <div id="profile">
-            <div id="image">
-                <img id="profile-photo" src="http://mnnit.ac.in/ss/images/shashank.jpg" alt="Profile-Image">
-                <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
-            </div>
-            <p id="name">Shashank Srivastava<br><span id="email">shashank12@mnnit.ac.in</span></p>
-            <p id="designation">Assistant Professor<br><span id="college">Motilal Nehru National Institute of Technology, Allahabad, Prayagraj, India</span></p>
-            <div id="social-links"><a href="#"><i class="fab fa-facebook-f stroke-transparent"></i></a><a><i class="fab fa-twitter stroke-transparent"></i></a><a><i class="fab fa-linkedin-in stroke-transparent"></i></a><a><i class="fab fa-github stroke-transparent"></i></a></div>
-            <a id="edit-intro" href="#"><i class="fas fa-pen-alt blue"></i>&nbsp;&nbsp;Edit Intro</a>
-            <hr width="100%">
-            <div id="about">
-                <p style="display:inline;">About</p>
-                <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-            </div>
-            <p id="year-graduation">Expected Year of Graduation<br><strong>March, 2014</strong></p>
-            <p id="education">Education<br><strong>Doctorate, Indian Institute of Information Technology-Allahabad</strong></p>
-            <p id="more-about">More about me<br><span>DUGC of Computer Science & Engineering Department</span></p>
-            <p id="telephone">Telephone<br><strong>0532-2271351</strong></p>
-            <p id="fax">Fax<br><strong>+91-532-25453441</strong></p>
-        </div>
-        <div id="info-cards">
-            <div class="card">
-                <p><i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Work Experience</p>
-                <a href="#">+ Add work experience, including contracts and internships</a>
-            </div>
-            <div class="card">
-                <p><i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Workshop</p>
-                <ul>
-                    <li><p class="tags">5 th IEEE Conference on Wireless Communication and Sensor Networks<br><span>IIIT-Allahabad | <span>2010</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                    <li><p class="tags">Microsoft Theory Day<br><span>IISc Bangalore | <span>2012</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                    <li><p class="tags">Microsoft Research India 2012 Summer School on Distributed Algorithms, Systems and Programming<br><span>IISc Bangalore | <span>2012</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                    <li><p class="tags">IEEE workshop on Cyber security<br><span>DAIICT Gandhi Nagar | <span>Nov, 2013</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                    <li><p class="tags">Author workshop jointly organized by Central Library<br><span>MNNIT Allahabad & Springer (India) Pvt. Ltd New Delhi | <span>29th October, 2015</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                    <li><p class="tags">Workshop for Computer Science Teachers<br><span>IIT Kanpur | <span>July, 2014</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                    <li><p class="tags">15th International Conference on Cryptology INDOCRYPT<br><span> | <span>2014</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                </ul>
-                <a href="#">+ Add workshops attended</a>
-            </div>
-            <div class="card">
-                <p><i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Education</p>
-                <ul>
-                    <li><p class="tags">Indian Institute of Information Technology-Allahabad<br><span>Secure Mobile Agent Based Communication for Real Time Applications, Doctorate | <span>March, 2014</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                    <li><p class="tags">Indian Institute of Information Technology-Allahabad<br><span>Information Security, MS | <span>1994-1996</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                    <li><p class="tags">Institute of Engineering and Rural Technology, U.P.T.U. Allahabad<br><span>Computer Science & Engineering, B.Tech | <span>1988-1992</span></span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                </ul>
-                <a href="#">+ Add new</a>
-            </div>
-        </div>
-    </div>
-          </body>
-    <!-- Developed by Tom Barrasso. https://barrasso.me -->
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Gregory Sauceda</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="https://media.licdn.com/dms/image/C5603AQEd-z1jOHA53w/profile-displayphoto-shrink_800_800/0/1637711638381?e=1687392000&v=beta&t=r99YjBvr0mbKyDH-q3CLJqwdHtw8zwGh2EMuHHzyMjc" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>Work as a<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					I’m a problem solver. I enjoy getting challenges and helping to solve them. Researching, experimenting, looking for alternatives, and following best practices can solve problems efficiently. I also like thinking outside of the box and providing creative solutions.
+				</p>
+				<p>
+					The last project I worked on involved deploying solutions to the cloud, improving the time responses, costs, and scalability, and looking for the best solutions with cloud tools. like cloud functions, event-driven, databases, data files, and workflows.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>2021 - 2023</li>
+				<li>multi-data management and microservice orchestration, providing low-code solutions. Deploying solutions to the cloud, improving the time responses, costs, scalability, and looking for the best fit of the solutions with cloud tools. like cloud functions, event driven, databases, data files, workflows.</li>
+				<li><strong>Team lead & Solution Architect</strong></li>
+			</ul>
+			<ul class="work-list">
+				<li>2020 - 2021</li>
+				<li> We implement a micro backend to provide solutions that are faster than a virtual machine. AWS Lambda supports many languages, but we choose Node.js, implementing and deploying our code with Serverless and gitlab, using AWS Lambda layers to make core code, and reusing as many functionalities as we can.</li>
+				<li> Cloud Tools: DynamoDB, RDS, IAM, AWS Lambda functions, S3, Cognito</li>
+				<li> Stack : Serverless, TypeScript, Javascript, GraphQL.</li>
+				<li> <strong>Backend Developer</strong> </li>
+			</ul>
+			<ul class="work-list">
+				<li>2018 - 2020</li>
+				<li> Project in Real Estate Industry, Social Housing, Housing Financing segments. </li>
+				<li> Used Technologies: Node.JS, Javascript, FeathersJs, VueJs, MongoDB, DBA MongoDB,. </li>
+				<li> <strong>Fullstack Developer</strong></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Cloud Experience</h1>
+			<ul class="award-list list-flat">
+				<li>Google Cloud Platform</li>
+				<li>DynamoDB / RDS / IAM / Lambda functions / S3 / Cognito / Aurora / Kinesis</li>
+				<li>Serverless</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>Amazon Web Service</li>
+				<li>Cloud Functions / Workflows / PubSub / Cloud Storage / firestore / Cloud Run / Workflows.</li>
+				<li>Firebase</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>Azure</li>
+				<li>Working On....</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>Javascript / TypeScript / Git / Gitlab / HTML / CSS / React</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Cloud Providers</li>
+				<li>Google Cloud Platform / AWS / (Learning) Azure</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL / MongoDB / Firestore</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Framework</li>
+				<li>Node.JS / GraphQL / Express.Js / Feathers.JS</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Additional</li>
+				<li>C# / Unity 3D / SCRUM</li>
+			</ul>
+			<h1>Languages</h1>
+			<ul class="skill-list list-flat">
+				<li>Spanish (native)</li>
+				<li>English</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<!-- <div class="quote">
+		<div class="container text-centered">
+			<h1>fight against the ugliness.</h1>
+		</div>
+	</div> -->
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Handcrafted by me</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:asdgreg@hotmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/asdgreg"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/asdgreg"><i class="fa fa-linkedin"></i></a></li>
+						
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Backend Dev", "Team Lead", "FullStack Dev", "Cloud Architect"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
 </html>
